@@ -1,0 +1,39 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {}
+	}, {
+		"path": "pages/home/home",
+		"style": {}
+	}, {
+		"path": "pages/function/function",
+		"style": {
+		}
+	}, {
+		"path": "pages/list/list",
+		"style": {
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "月亮",
+		"navigationBarBackgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/function/function",
+				"text": "功能"
+			},
+			{
+				"pagePath": "pages/list/list",
+				"text": "列表"
+			}
+		]
+	}
+}
